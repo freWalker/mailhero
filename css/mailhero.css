@@ -5,8 +5,8 @@
 	text-align: center;
 }
 
-.banner {
-	padding: 12px 0;
+#banner {
+	padding: 25px 0;
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #f0f0f0;
@@ -16,6 +16,8 @@
 	z-index: 999;
 	font-size: 20px;
 	display: block;
+	margin-top: -100px;
+	-webkit-transition: margin 1s;
 }
 
 .button-purple-clean {
@@ -62,14 +64,48 @@
     url(https://res.cloudinary.com/indiegogo-media-prod-cld/image/upload/v1437795107/ogg2mb3hs6nwrwy6u89r.png);
 }
 
-.footer {
-	font-size: 1.3rem;
-	font-weight: 300;
-	padding: 60px 0;
+.pricing {
+	padding: 70px 0;
+	background-color: #f2f2f2;
 }
+
+.pricing h3 {
+	font-weight: 400;
+}
+.price-tag {
+	background-color: #fff;
+	height: 180px;
+}
+.price-feature-list {
+	background-color: #f0f0f0;
+	height: 260px;
+}
+
+.price-feature-list {
+	list-style: none;
+	text-align: left;
+	padding-left: 10px;
+}
+.footer {
+	font-size: 1.4rem;
+	/*font-weight: 300;*/
+	padding: 70px 0;
+}
+
+.footer a {
+	color: #fff;
+	opacity: 0.7;
+	-webkit-transition: all 0.2s;
+	text-decoration: none;
+	padding: 0 10px;
+}
+.footer a:hover {
+	opacity: 0.5;
+}
+
 .featurelist {
 	padding: 90px 0;
-	font-weight: 300;
+	/*font-weight: 00;*/
 	font-size: 1.5rem;
 }
 .featurelist .row {
@@ -79,7 +115,7 @@
 	padding: 120px 0;
 }
 .feature h2 {
-	font-weight: 300;
+	font-weight: 400;
 }
 .row p {
 	font-size: 1.5rem;
@@ -91,7 +127,11 @@
 }
 .value-prop {
     margin-top: 1rem;
+    -webkit-transition: all 0.2s;
 }
+/*.value-prop:hover {
+	-webkit-transform: scale(1.1);
+}*/
 .value-props {
     margin-top: 4rem;
     margin-bottom: 4rem;
