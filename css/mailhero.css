@@ -5,6 +5,48 @@
 	text-align: center;
 }
 
+.banner {
+	padding: 12px 0;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #f0f0f0;
+	/*position: fixed;*/
+	background-color: #fff;
+	top: 0;
+	z-index: 999;
+	font-size: 20px;
+	display: block;
+}
+
+.button-purple-clean {
+	background-color: #fff;
+	color: #9430fb;
+	border-color: #fff;
+}
+
+.button-purple-clean:hover, .button-purple-clean:focus  {
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+}
+
+.button-indiegogo {
+	background-color: transparent;
+	color: #f53e90;
+	border-color: #f53e90;
+}
+
+.button-indiegogo:hover, .button-indiegogo:focus  {
+	background-color: #f53e90;
+	color: #fff;
+	border-color: #f53e90;
+}
+.value-img {
+	height: 30px;
+}
+.value-prop {
+	margin-bottom: 20px;
+}
 .tinted-customers {
 /*  
   width: 300px;
@@ -20,15 +62,31 @@
     url(https://res.cloudinary.com/indiegogo-media-prod-cld/image/upload/v1437795107/ogg2mb3hs6nwrwy6u89r.png);
 }
 
-.feature {
-	padding: 100px 0;
+.footer {
+	font-size: 1.3rem;
+	font-weight: 300;
+	padding: 60px 0;
 }
-.row p {
-	font-size: 2.3rem;
+.featurelist {
+	padding: 90px 0;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.featurelist .row {
+	margin-bottom: 20px;
+}
+.feature {
+	padding: 120px 0;
+}
+.feature h2 {
 	font-weight: 300;
 }
+.row p {
+	font-size: 1.5rem;
+	/*font-weight: 300;*/
+}
 .header {
-    margin-top: 6rem;
+    /*margin-top: 6rem;*/
     text-align: center;
 }
 .value-prop {
@@ -122,11 +180,20 @@
     display: none;
 }
 
+a.navbar-link {
+	color: #fff;
+	font-weight: 400;
+	-webkit-transition: all 0.2s;
+}
+
+a.navbar-link:hover {
+	opacity: 0.7;
+}
 /* Larger than phone */
 
 @media (min-width: 550px) {
     .header {
-        margin-top: 10rem;
+        /*margin-top: 10rem;*/
     }
     .value-props {
         margin-top: 9rem;
@@ -179,7 +246,9 @@
     .navbar-list {
         list-style: none;
         margin-bottom: 0;
+        color: #fff;
     }
+    
     .navbar-item {
         position: relative;
         float: right;
