@@ -118,7 +118,16 @@
 	margin-top: 1.5rem;
 }
 .feature {
-	padding: 120px 0;
+	padding: 100px 0;
+}
+.feature a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	-webkit-transition: opacity 0.3s;
+}
+.feature a:hover {
+	opacity: 0.6;
 }
 .feature h2 {
 	font-weight: 400;
