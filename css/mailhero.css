@@ -6,7 +6,7 @@
 }
 
 #banner {
-	padding: 25px 0;
+	padding: 35px 0;
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #f0f0f0;
@@ -78,7 +78,7 @@
 }
 .workspace {
 	
-  padding: 150px 0;
+  padding: 200px 0;
   background: 
     /* top, transparent red */ 
     linear-gradient(
