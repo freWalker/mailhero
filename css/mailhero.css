@@ -100,7 +100,7 @@
 
 @media (min-width: 550px) {
     .header {
-        margin-top: 18rem;
+        margin-top: 10rem;
     }
     .value-props {
         margin-top: 9rem;
@@ -156,7 +156,7 @@
     }
     .navbar-item {
         position: relative;
-        float: left;
+        float: right;
         margin-bottom: 0;
     }
     .navbar-link {

@@ -36,9 +36,22 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
     <div class="container">
+        <nav class="navbar">
+            <div class="container">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="https://twitter.com/share" class="navbar-link twitter-share-button share-button" data-via="MailHeroTeam" data-related="MailHeroTeam" data-hashtags="mailheroteam" onclick="ga('send', 'event', 'share', 'share on Twitter', 'top small button');">Tweet</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="mailto:mailheroteam@gmail.com?subject=Hello">Contact</a></li>
+                    <!-- <li class="navbar-item"><a class="navbar-link" href="#features">Features</a></li> -->
+                </ul>
+            </div>
+        </nav>
         <section class="header">
-            <h2 class="title">A Better Gmail Experience</h2>
+            <h2 class="title">MailHero</h2>
+            <!-- <h2 class="title">A Better Gmail Experience</h2> -->
+            <p>Extends Gmail or Google Apps to make it better for business owners, support team, sales people, marketing, and for anyone who want get their emails organized and work productively.</p>
             <a class="button button-primary" href="https://www.indiegogo.com/project/preview/bed30004#/story" target="_blank" onClick="">Indiegogo</a>
+        </section>
+        <!-- <section class="feature" id="features">
             <div class="value-props row">
                 <div class="four columns value-prop">
                     <img class="value-img" src="images/feather.svg"> Light as a feather at ~400 lines &amp; built with mobile in mind.
@@ -50,7 +63,7 @@
                     <img class="value-img" src="images/watch.svg"> Quick to start with zero compiling or installing necessary.
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 
     <script>
@@ -68,6 +81,18 @@
 
         ga('create', 'UA-65562777-1', 'auto');
         ga('send', 'pageview');
+    </script>
+    <script>
+        ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'twitter-wjs');
     </script>
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
