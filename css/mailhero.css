@@ -1,5 +1,31 @@
 .container {
-    max-width: 800px;
+    /*max-width: 800px;*/
+}
+.center {
+	text-align: center;
+}
+
+.tinted-customers {
+/*  
+  width: 300px;
+  height: 200px;*/
+  
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(34, 37, 48, 0.9), 
+      rgba(34, 37, 48, 0.9)
+    ),
+    /* bottom, image */
+    url(https://res.cloudinary.com/indiegogo-media-prod-cld/image/upload/v1437795107/ogg2mb3hs6nwrwy6u89r.png);
+}
+
+.feature {
+	padding: 100px 0;
+}
+.row p {
+	font-size: 2.3rem;
+	font-weight: 300;
 }
 .header {
     margin-top: 6rem;
