@@ -111,6 +111,12 @@
 .featurelist .row {
 	margin-bottom: 20px;
 }
+.featurelist h5 {
+	font-weight: 400;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	margin-top: 1.5rem;
+}
 .feature {
 	padding: 120px 0;
 }
@@ -128,6 +134,11 @@
 .value-prop {
     margin-top: 1rem;
     -webkit-transition: all 0.2s;
+    
+}
+
+.value-prop p {
+	opacity: 0.6;
 }
 /*.value-prop:hover {
 	-webkit-transform: scale(1.1);
