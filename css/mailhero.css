@@ -49,6 +49,31 @@
 .value-prop {
 	margin-bottom: 20px;
 }
+
+.faq {
+	padding: 120px 0;
+	text-align: left;
+	max-width: 70%;
+	margin: 0 auto;
+}
+.qa-q {
+	font-weight: 500;
+}
+.workspace {
+	
+  padding: 150px 0;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(34, 37, 48, 0.9)
+    ),
+    /* bottom, image */
+    url('../images/workspace.jpg') no-repeat center bottom;
+    
+    background-size:cover;
+}
+
 .tinted-customers {
 /*  
   width: 300px;
@@ -120,13 +145,13 @@
 .feature {
 	padding: 100px 0;
 }
-.feature a {
+.feature a, .workspace a {
 	color: #fff;
 	text-decoration: none;
 	border-bottom: 1px solid #fff;
 	-webkit-transition: opacity 0.3s;
 }
-.feature a:hover {
+.feature a:hover .workspace a:hover {
 	opacity: 0.6;
 }
 .feature h2 {
